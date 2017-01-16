@@ -1,0 +1,103 @@
+
+
+
+
+.header-static {
+    background-image: url('img/background_foto_2.jpg');
+    background-size:cover;
+    background-repeat: no-repeat;
+    min-height: 70%;
+    height: 100%;
+    padding: 20%;
+
+}
+
+.navbar-default {
+    background-color:  rgba(189, 145, 125, 1);
+    border-color: rgba(34, 34, 34, 0.05);
+    font-family: 'Poiret One', 'Josefin Sans', 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+    -webkit-transition: all 0.35s;
+    -moz-transition: all 0.35s;
+    transition: all 0.35s;
+}
+
+.navbar-default .navbar-header .navbar-brand {
+    color: #353031;
+    font-family: 'Poiret One', 'Josefin Sans', 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+    font-weight: 1000;
+}
+
+.navbar-default .navbar-header .navbar-brand:hover,
+.navbar-default .navbar-header .navbar-brand:focus {
+    color: black;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+   font-family: 'Poiret One', 'Josefin Sans', 'Open Sans', 'Helvetica Neue', Arial, sans-serif; 
+   font-weight: 500;        
+}
+
+.navbar-default .navbar-nav > li > a {
+  color: black;
+}
+
+p{
+    font-family: 'Open Sans', 'Poiret One', 'Josefin Sans', 'Helvetica Neue', Arial, sans-serif;
+}
+
+hr {
+    width: 10%;
+    border-color: black;
+    margin-top: 2%;
+}
+
+.section-dark {
+    background-color: rgba(189, 145, 125, 0.69);
+    padding: 5%;
+}
+
+.section-light {
+    background-color: rgba(255, 255, 255, 1);
+    padding: 5%;
+}
+
+
+.icons span {
+    color: #653521;
+    text-align: center;
+}
+
+.icons h4 {
+    margin-left: 5%;
+}
+
+.btn  {
+    background-color: #653521;
+    border-color: #653521;
+    color: white;
+}
+
+.btn-primary:hover {
+    background-color: rgba(189, 145, 125, 1);
+    border-color: rgba(189, 145, 125, 1);
+}
+
+a {
+    padding: none;
+    color: #653521;
+}
+
+.modal a {
+    color: #653521;  
+}
+
+.btn-default {
+    background-color: white;
+    text-align: center;
+    margin-top: 5%;
+}
