@@ -6,6 +6,7 @@
     background-image: url('img/background_foto_2.jpg');
     background-size:cover;
     background-repeat: no-repeat;
+    background-attachment: fixed;
     min-height: 70%;
     height: 100%;
     padding: 20%;
@@ -13,7 +14,7 @@
 }
 
 .navbar-default {
-    background-color:  rgba(189, 145, 125, 1);
+    background-color:  #fbe2dd;
     border-color: rgba(34, 34, 34, 0.05);
     font-family: 'Poiret One', 'Josefin Sans', 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
     -webkit-transition: all 0.35s;
@@ -57,8 +58,12 @@ hr {
 }
 
 .section-dark {
-    background-color: rgba(189, 145, 125, 0.69);
-    padding: 5%;
+    background-color: #fbe2dd;
+    padding: 3%;
+}
+
+.section-dark footer {
+    padding-top: none;
 }
 
 .section-light {
@@ -101,3 +106,4 @@ a {
     text-align: center;
     margin-top: 5%;
 }
+
