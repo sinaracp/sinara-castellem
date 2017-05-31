@@ -6,6 +6,9 @@
     $phone_field = $_POST['phone'];
     $message = $_POST['message'];
     $headers = "Content-Type: text/plain; charset=UTF-8";
+    $headers = "Content-Type: text/plain; charset=UTF-8" . "\r\n" .
+               "From: $email_field" . "\r\n" .
+               "BCC: sinaracp@gmail.com";
 
     $subject = "Mensagem de $name_field ( $email_field )";
     $body = "From: $name_field\nE-Mail: $email_field\n\n Mensagem:\n $message";
